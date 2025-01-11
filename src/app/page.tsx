@@ -6,10 +6,10 @@ import HeroPage from './components/Hero'
 
 const HomePage = () => {
   return (
-    <div>
+    <div className='h-screen'>
       <HeaderPage/>
       <HeroPage/>
-      <FooterPage/>
+      {/* <FooterPage/> */}
     </div>
   )
 }

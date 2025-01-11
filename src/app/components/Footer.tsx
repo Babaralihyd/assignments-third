@@ -1,47 +1,35 @@
 import React from 'react'
+import { RiSofaFill } from "react-icons/ri";
 
 const FooterPage = () => {
   return (
-    <div className=' justify-between items-center  '>
-      <footer className=' bg-orange-400 '  >
-<ul className=' flex justify-center items-center space-x-28 bg-red-700 text-white '>
-  <h1>Toyota Cars: 19,400+</h1>
-  <h1>Suzuki Cars: 17,500+</h1>
-  <h1>Honda Cars: 12,500+</h1>
-  <h1>Daihatsu Cars: 3,100+</h1>
+   <div className='w-full h-[343px] bg-[#FFFFFF] '>
+
+    <div className='grid grid-row-3  w-full h-[198px] '>
+      <div className=' flex row-span-1 w-full h-[40px] gap-2 '>
+      <RiSofaFill className='  w-[40px] h-[40px] text-[#029FAE]' />
+      <h1 className='   w-[120px] h-[31px] font font-inter font-medium text-[26px] leading-[31.2px] text-[#272343]'>Comforty</h1>
+
+
+     </div>
+      <div className=' row-span-1  '> <h1 className="w-[350px] h-[72px] font-inter  font-normal text-[16px] leading-[24px] text-[#272343]"> Vivamus tristique odio sit amet velit semper,  eu posuere turpis interdum.</h1>
+        </div>
+
+      <div className='row-span-3 flex w-[206px] h-[38px] gap-1 '>
+      <img src="facebook.svg" alt="logo" className='w-[38px] h-[38px] border-[1px] border-[#007580] rounded-[20PX]' />
+        <img src="Group 46.svg" alt="logo" className='w-[38px] h-[38px]' />
+        <img src="Group 47.svg" alt="logo" className='w-[38px] h-[38px] ' />
+        <img src="Group 48.svg" alt="logo" className='w-[38px] h-[38px] ' />
+        <img src="Group 50.svg" alt="logo" className='w-[38px] h-[38px]' />
+
+        
+      </div>
   
-</ul>
-<ul className=' flex justify-center items-center space-x-28 '>
-<p>Nissan Cars: 1,800+</p>  
-<p>KIA Cars: 1,200+</p>
-<p>Hyundai Cars: 1,100+</p>
-<p>Mitsubishi Cars: 800+</p>
-</ul>
+    
 
-<ul className=' flex justify-center items-center space-x-28 '>
-<p>Changan Cars: 690+</p>
-<p>BMW Cars: 220+</p>
-<p>Mazda Cars: 200+</p>
-<p>Haval Cars: 340+</p>
-  
-</ul>
-
-<ul className=' flex justify-center items-center space-x-28 '>
-
-<p>Audi Cars: 290+</p>
-<p>Prince Cars: 140+</p>
-<p>Proton Cars: 140+</p>
-<p>Lexus Cars: 110+</p>
-
-
-</ul>
-
-
-
-<h1 className=' text-white text-center bg-fuchsia-700 '>
-© 2024 Car Haven. All rights reserved.    </h1>
-      </footer>
     </div>
+   </div>
+    
   )
 }
 

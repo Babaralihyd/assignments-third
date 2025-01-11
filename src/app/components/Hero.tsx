@@ -1,29 +1,20 @@
-import React from 'react';
-import Image from 'next/image';
-import carimage from '../components/car.jpg'; // Ensure this path is correct
 
-const Heropage = () => {
+import React from 'react'
+
+const Hero = () => {
   return (
-    <div className='h-screen bg-slate-300 flex'>
-      <div className='pl-9 my-40'>
-        <h1 className='text-3xl bg-red-700 mx-80 text-yellow-500 rounded-3xl'>
-          Car Brands and Their Models
-        </h1>
-        <p className='space-x-6 text-xl text-amber-950'>
-          This list highlights the diverse range of car brands available, showcasing their respective models and production numbers. From the high volumes of Toyota and Suzuki to the more niche offerings of brands like Lexus and Proton, there's a vehicle for every preference and need in today’s automotive market.
-        </p>
-        <Image  className=' mx-80 my-16 justify-center  rounded-3xl  '
-          src={carimage} 
-          alt="Car"
-          width={500} 
-          height={200} 
-        />
-
-        <button className='bg-fuchsia-600 px-3 py-2 rounded-2xl text-sky-950 hover:bg-rose-600 hover:text-black mx-80 '  >Buy Now </button>
-        <button className='bg-orange-600  px-3 py-2 rounded-2xl text-slate-900 hover:bg-rose-900 hover:text-black'>Order Now  </button>
-      </div>
+    <div>
+          <div className=' grid grid-cols-2   w-full h-[80px]'>
+            <div className='col-span-1 '>
+              <h1 className='   flex  w-[177px] h-[44px] justify-center items-center text-center font-inter  font-normal text-[14px] leading-[14px]'>Welcome to chairy</h1>
+              <h1 className=' justify-center items-center  ml-[70px] w-[557px] h-[198px] text-[60px] leading-[66px]'>Best Furniture Collection for your interior.</h1>
+            </div>
+            <div className='col-span-1 bg-red-500'>8</div>
+          </div>
     </div>
-  );
+  )
 }
 
-export default Heropage;
+export default Hero
+
+
